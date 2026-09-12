@@ -1,17 +1,19 @@
 ---
 layout: page
-title: Topology Representation for Power Electronics
-description: Search and similarity analysis for series-parallel converter topologies.
-importance: 4
+title: Multimodal Point Cloud Completion
+description: Feature purification and multimodal feedback for damaged architectural point clouds.
+img: assets/img/projects/point-cloud-completion.png
+importance: 5
 category: research
 ---
 
 ## Overview
 
-This project represents series-parallel power-converter topologies as symbolic expressions derived from undirected graphs.
-Prime-weight component labels and explicit series/parallel operators provide a compact, relabeling-invariant description.
+This project studies the completion of damaged ancient-architecture point clouds under deformation and noise.
+The work led to an authorized Chinese invention patent with Mingjia Chen as the first inventor.
 
-## Retrieval
+## Method
 
-Expression similarity is measured with a longest-common-subsequence formulation and used for Top-k retrieval.
-The study also compares the representation with graph isomorphism and graph-edit-distance baselines.
+The pipeline combines manifold harmonic spectral features, adaptive neighborhoods,
+gated feature purification, point-cloud completion, and smoothing.
+A multimodal language model evaluates reconstruction results and adjusts key parameters through feedback.

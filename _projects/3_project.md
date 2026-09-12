@@ -2,7 +2,8 @@
 layout: page
 title: Quadruped Robot Learning and Navigation
 description: Sim-to-real locomotion and long-range embodied navigation on Unitree GO2.
-importance: 3
+img: assets/img/projects/go2-lavira.png
+importance: 4
 category: research
 ---
 
