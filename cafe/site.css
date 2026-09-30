@@ -1,4 +1,18 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url("./fonts/manrope-latin.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Source Serif 4";
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url("./fonts/source-serif-4-latin.woff2") format("woff2");
+}
 :root {
   --ink: #162438;
   --muted: #596579;
@@ -17,10 +31,11 @@ body {
   margin: 0;
   color: var(--ink);
   background: #fff;
-  font-family: Inter, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-family: "Manrope", "Segoe UI", Helvetica, Arial, sans-serif;
   font-size: 17px;
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
+  font-optical-sizing: auto;
 }
 a {
   color: var(--blue);
@@ -63,12 +78,16 @@ h3 {
   letter-spacing: -0.035em;
 }
 h2 {
+  font-family: "Source Serif 4", Georgia, serif;
   font-size: clamp(30px, 3.2vw, 44px);
-  font-weight: 650;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.025em;
 }
 h3 {
   font-size: 23px;
-  font-weight: 650;
+  font-weight: 600;
+  letter-spacing: -0.025em;
 }
 .container {
   max-width: var(--width);
@@ -138,8 +157,8 @@ h3 {
 }
 .wordmark {
   font-size: 23px;
-  font-weight: 800;
-  letter-spacing: -0.06em;
+  font-weight: 700;
+  letter-spacing: -0.045em;
   color: var(--ink);
 }
 .brand-loop {
@@ -170,19 +189,20 @@ h3 {
 .acronym {
   font-size: clamp(64px, 7vw, 90px);
   display: block;
-  font-weight: 800;
-  letter-spacing: -0.065em;
+  font-weight: 700;
+  letter-spacing: -0.055em;
   color: var(--blue);
   margin-bottom: 18px;
   line-height: 1.05;
 }
 .full-title {
   display: block;
-  font-size: clamp(27px, 3.4vw, 42px);
-  font-weight: 650;
-  line-height: 1.24;
-  letter-spacing: -0.035em;
-  max-width: 1020px;
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: clamp(31px, 3.6vw, 48px);
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+  max-width: 1080px;
   margin: auto;
 }
 .hero-description {
@@ -928,7 +948,7 @@ dialog p {
     margin-bottom: 20px;
   }
   .full-title {
-    font-size: 29px;
+    font-size: 32px;
     line-height: 1.23;
   }
   .hero-description {
