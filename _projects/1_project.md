@@ -1,13 +1,15 @@
 ---
 layout: page
 title: CAFE
-description: Coming Soon · Closed-loop autonomous task formulation and execution without explicit task input.
+redirect: https://mingjia2005.github.io/CAFE-Closed-Loop-Autonomous-Task-Formulation-and-Execution-without-Explicit-Task-Input/
+description: Closed-loop autonomous task formulation and execution without explicit task input.
 img: assets/img/projects/cafe-framework.png
 importance: 1
 category: research
 ---
 
-> **Status:** Project materials are coming soon. The manuscript is currently under review at IEEE TASE.
+> **Project website:** [Explore CAFE ↗](https://mingjia2005.github.io/CAFE-Closed-Loop-Autonomous-Task-Formulation-and-Execution-without-Explicit-Task-Input/)
+> The manuscript is currently under review at IEEE TASE.
 
 ## Overview
 
