@@ -69,7 +69,7 @@ formulate useful tasks, and improve their decisions through execution feedback.
 
 ## Education
 
-**2027–** 南京大学智能科学与技术专业直博。
+**Direct-entry Ph.D. in Intelligent Science and Technology**, Nanjing University, 2027–.
 
 **B.E. in Automation**, Nanjing Normal University, 2023–Present.
 
