@@ -24,6 +24,31 @@ latest_posts:
   enabled: false
 ---
 
+<style>
+  .post .about-intro {
+    display: flow-root;
+  }
+
+  .post .about-details {
+    clear: both;
+  }
+
+  @media (min-width: 576px) {
+    .post .about-intro {
+      width: calc(70% - 1rem);
+    }
+  }
+
+  @media (max-width: 575.98px) {
+    .post .profile.float-right {
+      float: none;
+      margin-left: 0;
+    }
+  }
+</style>
+
+<div class="about-intro" markdown="1">
+
 ## About Me
 
 I am **Mingjia Chen (陈铭佳)**, an undergraduate student in Automation at the
@@ -38,7 +63,13 @@ formulate useful tasks, and improve their decisions through execution feedback.
 - **Multi-Robot Systems:** distributed perception, dynamic coverage, active gathering, and task allocation.
 - **Robot Learning:** reinforcement learning, sim-to-real deployment, legged locomotion, and long-range navigation.
 
+</div>
+
+<div class="about-details" markdown="1">
+
 ## Education
+
+**2027–** 南京大学智能科学与技术专业直博。
 
 **B.E. in Automation**, Nanjing Normal University, 2023–Present.
 
@@ -64,3 +95,5 @@ I have also received the **First-Class Outstanding Student Scholarship**, **Meri
 ## Hobbies
 
 Outside the lab, I enjoy travelling, photography, reading, and staying active.
+
+</div>
